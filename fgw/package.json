@@ -1,0 +1,20 @@
+{
+  "name": "cdn-gw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2-docker start server-fgw.js -i 0 --watch"
+  },
+  "author": "gaurav tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "hashmap": "^2.3.0",
+    "node-fetch": "^2.1.2",
+    "node-xlsx": "^0.12.1",
+    "pm2": "^3.0.0",
+    "redis": "^2.8.0"
+  }
+}

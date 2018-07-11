@@ -1,0 +1,9 @@
+{
+    "deviceType" : ["STB","CDA","Any"],
+    "inHomeStatus" : ["True","False","Any"],
+    "serviceType" : ["Linear","VOD"],
+    "locale-STB" : ["R1","R2","R3","R4","R5","R6","R7","R8","R9","R10"],
+    "locale-CDA" : ["SN1","SN2","SN3","SN4","SN5","SN6","SN7","SN8","SN9","SN10"],
+    "days" : ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "AvailableCDNs" :["VSPP1","VSPP2","VSPP3","VSPP4","AWS-CF1","AWS-CF2","AWS-CF3","AWS-CF4","CD-N/W1","CD-N/W2","CD-N/W3","CD-N/W4","CD-N/W5"]
+}
